@@ -1,7 +1,9 @@
-section{
-    background-color: black;
+header{
     font-style: italic;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-align:left;
+    color: blue;
+    background-color: black;
+    background-size: cover;
         }
