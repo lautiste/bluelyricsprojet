@@ -1,0 +1,98 @@
+/* Styles pour le header */
+header {
+  background-color: blue; /* Arrière-plan bleu */
+  padding: 10px 0;
+}
+
+/* Styles pour les menus principaux */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px; /* Espacement entre les éléments du menu */
+}
+
+/* Styles pour les menus déroulants */
+.Liste-genre,
+.Liste-artiste {
+  display: none;
+  position: absolute;
+  top: 100%; /* Place les sous-menus en dessous des éléments parent */
+  left: 0; /* Alignement à gauche */
+  background-color: white; /* Arrière-plan blanc */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.Liste:hover .Liste-genre,
+.Liste:hover .Liste-artiste {
+  display: block;
+}
+***********************************************************************************************
+
+div p {
+    color: blueviolet;
+}
+
+header {
+    background-color: #999797; 
+    align-items: center;
+    border: 5px solid black;
+}
+ul * {
+   color: crimson; margin: auto;
+}
+
+li * {
+    color: rgb(0, 255, 98); vertical-align: auto;
+}
+
+.Liste {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.Liste li {
+    margin: 0;
+}
+
+.Liste-style {
+    display: none;
+    position: absolute;
+}
+main {
+    margin-left: auto; margin-right: auto; padding: 20px;
+}
+h1 {
+    margin-top: 0px; margin-bottom: 15px;
+}
+img {margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;}
+.menu-vertical {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-vertical li {
+    margin: 0;
+}
+
+.Liste {
+    position: relative;
+}
+
+.Liste-genre,
+.Liste-artiste {
+    display: none;
+    position: absolute;
+    top: 100%; 
+}
+
+.Liste:hover .Liste-genre,
+.Liste:hover .Liste-artiste {
+    display: block;
+}
