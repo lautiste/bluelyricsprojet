@@ -6,14 +6,15 @@
 header{
     font-style: italic;
     font-weight: bolder;
-    background-color: black;
+    background: radial-gradient(circle, rgba(0,0,0,1)100%, rgba(31,31,31));
     padding: 5px;
     color: white;
+    position: relative;
       }
 
 body{margin: 0px;  
     background: rgb(47,45,149);
-    background: radial-gradient(circle, rgba(47,45,149,1) 60%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(47,45,149,1) 60%, rgb(0, 0, 0) 100%);
     color: whitesmoke;
     font-style: italic;
     font-size: large;
@@ -57,10 +58,20 @@ h4{
     text-decoration: underline;
 }
 
-div{font-weight: 20%;
-  text-align: right;
-  position: relative;
-  top: 0;
-  right: 0;
-   }
+.Connexion{ position: absolute;
+            top: 0;
+            right: 0;
+            
+            
 
+
+}
+
+.Connexion button{
+  
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  width: 120px;
+}
