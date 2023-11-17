@@ -1,0 +1,116 @@
+ 
+  body {
+    margin: 0px;
+    background: rgb(47, 45, 149);
+    background: radial-gradient(circle, rgba(47, 45, 149, 1) 60%, rgb(0, 0, 0) 100%);
+    color: whitesmoke;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  header {
+    font-style: italic;
+    font-weight: bolder;
+    background: radial-gradient(circle, rgb(23, 23, 23)100%, rgb(44, 44, 44));
+    padding: 2px;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  h1 {
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 50px;
+  }
+  .Connexion {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .Connexion button {
+  
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    width: 120px;
+  }
+  
+  .Connexion button:hover {
+    color: yellow;
+  }
+  
+  .logo {
+    filter: invert(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+  }
+  
+  main { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    margin-top:185px;
+    text-align: justify;
+  
+  
+  }
+  
+  h2 {
+    text-align: start;
+  
+  
+  }
+  
+  h3 {
+    text-align: start;
+    font-size: 45px;
+    text-decoration: underline;
+  
+  
+  }
+  
+  br {
+    border-color: whitesmoke;
+    height: 2px;
+  }
+  
+  h4 {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .image-titre {
+    width: 200px;
+  }
+  
+  .lyrics:nth-child(1){
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .cadre-info-artiste:nth-child(2){
+    flex: 1;
+    margin-right: 150px;
+    padding: 20px;
+    top: 150px; 
+    left: 35px;
+    border:20px ridge rgb(247, 247, 14)
+  } 
+
+  .image-catégories{
+    max-height: 50px;
+  }
