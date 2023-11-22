@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom, blue, black);
+    color: white;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+
+}
+.col {
+    border-right: 1px solid white;
+    padding: 60px;
+    flex: 1;
+}
+.col:last-child {
+    border-right: none;
+}
+
+a {
+color: rgb(255, 255, 255);
+}
+
+.form-control {
+    width: 120%;
+}
+
+.btn {
+    padding: 6px 50px;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.password-field {
+    margin-top: -178px; /* Ajustez cette valeur en fonction de vos besoins */
+}
+
