@@ -19,7 +19,6 @@ ul {
     width: 100%;
     max-width: 600px;
     margin-left: 50px;
-    height: 100vh;
     margin-top: -67px;
 }
 
@@ -27,6 +26,7 @@ ul li a {
     color: #0662bf; /* Couleur du texte des liens */
     text-decoration: none; /* Supprime le soulignement */
     font-size: 1.2em; /* Taille du texte des liens */
+    font-family: Arial, sans-serif;
     transition: color 0.3s ease; /* Animation de changement de couleur */
 }
 
