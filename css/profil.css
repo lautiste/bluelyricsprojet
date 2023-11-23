@@ -91,3 +91,128 @@
 background: radial-gradient(circle, #0dcaf0 60%, rgb(255 145 16) 100%);
 
 }
+
+footer {
+  background-color: hsl(0, 0%, 0%);
+  color: #fff;
+  text-align: left;
+  
+}
+
+.footer-content {
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer .left-content p {
+  font-size: 35px;
+  margin: 0;
+}
+
+.footer .left-content {
+  flex: 1;
+}
+
+.footer .social-icons {
+  display: flex;
+  flex-direction: center;
+  
+}
+
+.footer .social-icons a { 
+  margin: 10px 3px;
+  height: 50px;
+}
+
+.footer .social-icons img {
+  width: 60px;
+}
+
+.footer .right-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .right-content li {
+  margin: 20px 0;
+}
+
+.footer .right-content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer .right-content {
+  display: flex;
+}
+
+.footer .right-content ul {
+  list-style: none;
+  padding: 0;
+  flex: 1; 
+  margin: 0 10px; 
+}
+
+.footer .column {
+  margin-right: 70px; 
+}
+
+.footer .right-content a:hover {
+  text-decoration: underline;
+}
+
+.footer .left-content p{
+  text-align: start;
+  padding-left: 10px;
+}
+/* body {
+  background: rgb(99, 39, 120)
+} */
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none
+}
+
+.profile-button:hover {
+  background: #682773
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+.labels {
+  font-size: 11px
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+.col-md-4 {
+    background-color: rgb(255 145 16);
+}
+.card-body {
+    background-color: #0dcaf0
+}
