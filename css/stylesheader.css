@@ -2,13 +2,10 @@
     margin-top: 2px; width: 100px; height: 100px; opacity: 0.6;
 }
 header {
-    background-color: rgba(47,45, 255, 149); opacity: 0.9;
-    padding: 10px 0;
+    background-color: black;
+     opacity: 0.9;
+     width: 100%;
   }
-
-body {
-    Background-image: url("../image/Capture\ d’écran\ du\ 2023-10-25\ 12-24-10.png"); padding: 20px; 
-    }
 
 hr {
     color:rgb(255, 8, 0); height: 2px; border: solid 1px #e41515;
@@ -16,7 +13,7 @@ hr {
 button .search-bar {
     border: 5px solid transparent ; border-radius: 10px; padding: 10px;
 }
-  
+
   nav ul {
     list-style: none;
     margin: 0;
@@ -43,10 +40,7 @@ button .search-bar {
   .Liste:hover .Liste-artiste {
     display: block;
   }
-  .logo {
-    text-align: center; 
-    padding-top: 20px;  
-}
+   
 main {width: 80%;max-height: 1000;}
 p {
     text-align: center;
@@ -56,4 +50,40 @@ h1,h2,h3 {
 }
 h1:hover{
     background-color: gray; color: greenyellow; transition: 1s;
+  }
+
+  .Connexion {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .Connexion h1{
+    color: #0dcaf0;
+    align-self: center;
+    font-family: fantasy;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: xxx-large;
+  }
+  
+  .Connexion button {
+  
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    width: 120px;
+  }
+  
+  .Connexion button:hover {
+    color: yellow;
+  }
+  
+  .logo {
+    filter: invert(100%);
+    
+  }
+
+  .barre-de-nav nav{
+    background: radial-gradient(circle, rgb(63, 207, 220) 60%,rgb(255 143 19) 100%) !important;
   }

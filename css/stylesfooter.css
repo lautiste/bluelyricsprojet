@@ -12,7 +12,6 @@ footer {
     color: #fff;
     padding: 30px;
     text-align: left;
-    width: 100%;
     
 }
 
@@ -79,4 +78,6 @@ footer {
     text-decoration: underline;
 }
 
-
+.left-content p{
+    text-align: start;
+}
