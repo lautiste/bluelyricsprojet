@@ -10,18 +10,6 @@ body {
   font-family: Arial, Helvetica, sans-serif
 }
 
-header {
-  font-style: italic;
-  font-weight: bolder;
-  background: radial-gradient(circle, rgb(23, 23, 23)100%, rgb(44, 44, 44));
-  padding: 2px;
-  color: white;
-  position: fixed;
-  right: 0;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 
 h1 {
   font-style: normal;
@@ -29,32 +17,6 @@ h1 {
   font-family: 'Rock Salt', cursive;
   text-align: center;
   font-size: 50px;
-}
-.Connexion {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.Connexion button {
-
-  background-color: red;
-  color: whitesmoke;
-  border: none;
-  padding: 10px;
-  width: 120px;
-}
-
-.Connexion button:hover {
-  color: yellow;
-}
-
-.logo {
-  filter: invert(100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90px;
 }
 
 main { 
@@ -64,7 +26,6 @@ main {
     margin-right: auto;
     margin-left: auto;
     padding: 0px;
-    margin-top: 185px;
   
 }
 
