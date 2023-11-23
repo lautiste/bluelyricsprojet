@@ -59,16 +59,13 @@ h1 {
 
 main { 
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0px;
-  margin-top:185px;
-  text-align: justify;
-  align-items: flex-start;
-
-
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    margin-top: 185px;
+  
 }
 
 h2 {
@@ -126,3 +123,5 @@ h4 {
   figure:hover {
     transform : scale(1.10);
   }
+
+  

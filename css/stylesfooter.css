@@ -1,12 +1,9 @@
 footer {
-    left: 0;
-    bottom: 0;
     background-color: hsl(0, 0%, 0%);
     color: #fff;
     padding: 30px;
     text-align: left;
-    right: 0;
-    flex-shrink: 0
+    
 }
 
 .footer-content {
@@ -72,4 +69,6 @@ footer {
     text-decoration: underline;
 }
 
-
+.left-content p{
+    text-align: start;
+}
