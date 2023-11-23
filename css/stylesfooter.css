@@ -1,7 +1,7 @@
+
 footer {
     background-color: hsl(0, 0%, 0%);
     color: #fff;
-    padding: 30px;
     text-align: left;
     
 }
@@ -11,64 +11,65 @@ footer {
     margin: 0 auto;
 }
 
-.left-content p {
+.footer .left-content p {
     font-size: 35px;
     margin: 0;
 }
 
-.left-content {
+.footer .left-content {
     flex: 1;
 }
 
-.social-icons {
+.footer .social-icons {
     display: flex;
     flex-direction: center;
     
 }
 
-.social-icons a { 
+.footer .social-icons a { 
     margin: 10px 3px;
     height: 50px;
 }
 
-.social-icons img {
+.footer .social-icons img {
     width: 60px;
 }
 
-.right-content ul {
+.footer .right-content ul {
     list-style: none;
     padding: 0;
 }
 
-.right-content li {
+.footer .right-content li {
     margin: 20px 0;
 }
 
-.right-content a {
+.footer .right-content a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
 }
 
-.right-content {
+.footer .right-content {
     display: flex;
 }
 
-.right-content ul {
+.footer .right-content ul {
     list-style: none;
     padding: 0;
     flex: 1; 
     margin: 0 10px; 
 }
 
-.column {
+.footer .column {
     margin-right: 70px; 
 }
 
-.right-content a:hover {
+.footer .right-content a:hover {
     text-decoration: underline;
 }
 
-.left-content p{
+.footer .left-content p{
     text-align: start;
+    padding-left: 10px;
 }
